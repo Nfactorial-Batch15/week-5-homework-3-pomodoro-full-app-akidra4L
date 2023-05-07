@@ -8,10 +8,14 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
+        setInitialSettings()
+    }
+    
+    private func setInitialSettings() {
+        self.view.backgroundColor = UIColor(named: "CustomBlack")
     }
 }

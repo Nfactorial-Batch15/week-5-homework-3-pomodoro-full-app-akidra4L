@@ -38,6 +38,8 @@ class ViewController: UITabBarController {
             items[i].title = TabBarItem.tabBarItems[i].title
             items[i].image = UIImage(systemName: TabBarItem.tabBarItems[i].icon)
         }
+        UITabBar.appearance().barTintColor = .white
+        UITabBar.appearance().unselectedItemTintColor = .white
     }
 }
 

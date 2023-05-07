@@ -14,6 +14,8 @@
 		15B510632A07F79B00E35463 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B510622A07F79B00E35463 /* MainViewController.swift */; };
 		15B510652A07F7A700E35463 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B510642A07F7A700E35463 /* SettingsViewController.swift */; };
 		15B510672A07F7B300E35463 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B510662A07F7B300E35463 /* HistoryViewController.swift */; };
+		15B510692A08008A00E35463 /* CustomConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B510682A08008A00E35463 /* CustomConstraints.swift */; };
+		15B5106C2A080BA500E35463 /* CustomActionButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5106B2A080BA500E35463 /* CustomActionButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		15B510622A07F79B00E35463 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		15B510642A07F7A700E35463 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		15B510662A07F7B300E35463 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		15B510682A08008A00E35463 /* CustomConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConstraints.swift; sourceTree = "<group>"; };
+		15B5106B2A080BA500E35463 /* CustomActionButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActionButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		15B5104D2A07F67400E35463 /* PomodoroApp */ = {
 			isa = PBXGroup;
 			children = (
+				15B5106A2A080B8500E35463 /* Components */,
 				15B5104E2A07F67400E35463 /* AppDelegate.swift */,
 				15B510522A07F67400E35463 /* ViewController.swift */,
 				15B510572A07F67500E35463 /* Assets.xcassets */,
@@ -66,8 +71,17 @@
 				15B510622A07F79B00E35463 /* MainViewController.swift */,
 				15B510642A07F7A700E35463 /* SettingsViewController.swift */,
 				15B510662A07F7B300E35463 /* HistoryViewController.swift */,
+				15B510682A08008A00E35463 /* CustomConstraints.swift */,
 			);
 			path = PomodoroApp;
+			sourceTree = "<group>";
+		};
+		15B5106A2A080B8500E35463 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				15B5106B2A080BA500E35463 /* CustomActionButtonViewController.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B510632A07F79B00E35463 /* MainViewController.swift in Sources */,
+				15B510692A08008A00E35463 /* CustomConstraints.swift in Sources */,
 				15B510532A07F67400E35463 /* ViewController.swift in Sources */,
 				15B5104F2A07F67400E35463 /* AppDelegate.swift in Sources */,
+				15B5106C2A080BA500E35463 /* CustomActionButtonViewController.swift in Sources */,
 				15B510672A07F7B300E35463 /* HistoryViewController.swift in Sources */,
 				15B510652A07F7A700E35463 /* SettingsViewController.swift in Sources */,
 			);
